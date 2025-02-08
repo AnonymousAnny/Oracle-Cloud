@@ -1,0 +1,27 @@
+CREATE TABLE HTZ_CUSTOM.XXHTZ_INVOICE_LINES_STG_TBL 
+   (	
+   INVOICE_ID                                 	NUMBER, 
+	CCID                                		NUMBER, 
+	AMOUNT                                 		NUMBER, 
+	DISCOUNT                                 	NUMBER, 
+	INV_LINE_TYPE                               VARCHAR2(100), 
+	CONV_PO_NUM                                 VARCHAR2(100), 
+	ORG_ID                                 		NUMBER, 
+	LINE_TYPE                                 	VARCHAR2(100), 
+	PO_DISTRIBUTION_ID                          NUMBER, 
+	LINE_NUMBER                                 NUMBER, 
+	SEGMENT5                                 	VARCHAR2(100), 
+	SEGMENT6                                 	VARCHAR2(100), 
+	SEGMENT1                                 	VARCHAR2(100), 
+	PO_HEADER_ID                                NUMBER, 
+	PO_SEGMENT1                                 VARCHAR2(100), 
+	CANCEL_FLAG                                 VARCHAR2(100), 
+	INTERFACE_SOURCE_CODE                       VARCHAR2(100), 
+	LOOKUP_CODE                                 VARCHAR2(100), 
+	TAG                                 		VARCHAR2(100),
+	CREATION_DATE 								DATE DEFAULT SYSDATE, 
+	CREATED_BY                                 	NUMBER, 
+	LAST_UPDATE_DATE 							DATE, 
+	LAST_UPDATED_BY                             NUMBER, 
+	LAST_UPDATE_LOGIN                           NUMBER
+   );
